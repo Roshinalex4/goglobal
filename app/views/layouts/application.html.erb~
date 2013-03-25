@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Go global | Login</title>
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+	<link href="css/main_style.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="AvantGardeMd/avantgardstylesheet.css" type="text/css" charset="utf-8" />
+	<link rel="stylesheet" href="goodfoot/goodfoot_stylesheet.css" type="text/css" charset="utf-8" />
+		<style>
+			body{
+				font-size:14px;
+				font-family: 'avantgarde_md_btmedium';
+			 letter-spacing:1px;
+			 margin:0px;
+			 background:#FFF;
+			}
+		</style>
+		<!--[if lte IE 7]>
+			<style>
+			ul#footer_menu{
+			width:610px;
+			}
+
+			#already h6 {
+	
+				font-size: 8px;
+				color: #817d7d;
+				margin-top: 7px;
+				margin-bottom: 0px;
+				margin-left:-5px;
+			}
+			</style>
+			<![endif]-->
+			<!--[if lte IE 8]>
+			<style>
+			ul#footer_menu{
+			width:610px;
+			}
+			#already h6 {
+	
+				font-size: 8px;
+				color: #817d7d;
+				margin-top: 7px;
+				margin-bottom: 0px;
+				margin-left:-5px;
+			}
+		</style>
+		<![endif]-->
+
+
+	</head>
+	<body>
+		<%= yield %>
+	</body>
+</html>
